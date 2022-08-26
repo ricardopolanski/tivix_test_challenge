@@ -1,0 +1,8 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "http://qalab.pl.tivixlabs.com/",
+    "retries": {
+        "runMode": 1,
+        "openMode": 0
+      }
+}
