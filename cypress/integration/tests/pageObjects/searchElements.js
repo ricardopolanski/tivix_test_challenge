@@ -4,21 +4,20 @@ function searchPagelements() {
         const modelField = '[id="model"]';
         const pickUpDate = '[id="pickup"]';
         const dropOffDate = '[id="dropoff"]';
-        const btnSearch = '[class="btn btn-primary"]';
-        const alertBox = '[class="alert alert-danger"]'
-
+        const alertBox = '[class="alert alert-danger"]';
+        const searchResults = '[id="search-results"]';
         return {
                 countryField,
                 cityField,
                 modelField,
                 pickUpDate,
                 dropOffDate,
-                btnSearch,
-                alertBox
+                alertBox,
+                searchResults
         }
 }
 
-module.exports = {searchPagelements}
+export default {searchPagelements}
 
 
 

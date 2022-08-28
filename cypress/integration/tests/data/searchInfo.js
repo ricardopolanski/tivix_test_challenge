@@ -4,7 +4,7 @@ const dateFunction = new DateFunction
 function searchInfo() {
     const country = "France";
     const city = "Paris";
-    const model = "Jetta";
+    const model = "Toyota Aygo";
     const pickUpDate = dateFunction.getpickUpDate();
     const dropOffDate = dateFunction.dropOffDate();
 

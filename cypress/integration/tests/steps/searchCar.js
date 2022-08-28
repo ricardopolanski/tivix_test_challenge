@@ -1,7 +1,8 @@
 import { CommonActions } from '../actions/commonActions.js';
-import { Search } from '../actions/rentCarActions';
+import { SearchCarActions } from '../actions/searchCarActions';
 const commonActions = new CommonActions
-const searchActions = new Search
+const searchActions = new SearchCarActions
+
 
 Given(/^the website is accessed$/, () => {
 	commonActions.accessWebSite()
@@ -33,12 +34,4 @@ When(/^the Search button is clicked$/, () => {
 
 Then(/^will be displayed a table informing Company, Model, License plate, Price, Price per day and a Rent button$/, () => {
 	searchActions.checkResults();
-});
-
-When(/^the Rent button is clicked$/, () => {
-	searchActions.selectCar()
-});
-
-Then(/^will be displayed a sumary with, Model, Company, Price per day, Location, Licencse plate, Pickup date and Dropoff date$/, () => {
-	searchActions.sumary()
 });

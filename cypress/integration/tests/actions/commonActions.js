@@ -5,7 +5,5 @@ export class CommonActions{
             expect(response.status).equal(200)
         })
         cy.viewport('macbook-13')
-    }
-
-    
+    }   
 }

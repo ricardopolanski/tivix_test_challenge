@@ -3,7 +3,7 @@
     "baseUrl": "http://qalab.pl.tivixlabs.com/",
     "retries": {
         "runMode": 1,
-        "openMode": 0
+        "openMode": 3
       },
       "projectId": "xyv8pw"
 }

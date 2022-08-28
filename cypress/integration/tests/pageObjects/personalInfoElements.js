@@ -7,11 +7,11 @@ function personalInfoPagelements() {
         nameField,
         lastNameField,
         cardNumberField,
-        emailField,
+        emailField
     }
 }
 
-module.exports = {personalInfoPagelements}
+export default {personalInfoPagelements}
 
 
 

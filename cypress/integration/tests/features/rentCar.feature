@@ -12,7 +12,7 @@ Feature: Rent a Car
         And the Search button is clicked
         
         
-
+# @focus
     Scenario: Search Car Filters
         Then will be displayed a table informing Company, Model, License plate, Price, Price per day and a Rent button 
 
