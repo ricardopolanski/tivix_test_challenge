@@ -27,7 +27,7 @@ export class SelectCarActions{
         
     }
 
-    sumary = () => {
+    summary = () => {
         let arr = []
         
         cy.get(this.cardBody).children().each(($el) => {

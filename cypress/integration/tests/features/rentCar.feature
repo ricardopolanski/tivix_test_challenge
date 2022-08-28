@@ -19,11 +19,11 @@ Feature: Rent a Car
 
     Scenario: Select a Car
         When the Rent button is clicked
-        Then will be displayed a sumary with, Model, Company, Price per day, Location, Licencse plate, Pickup date and Dropoff date
+        Then will be displayed a summary with, Model, Company, Price per day, Location, License plate, Pickup date and Dropoff date
 
     Scenario: Filling up Personal Information
         When the Rent button is clicked
-        Then will be displayed a sumary with, Model, Company, Price per day, Location, Licencse plate, Pickup date and Dropoff date
+        Then will be displayed a summary with, Model, Company, Price per day, Location, License plate, Pickup date and Dropoff date
         When fill up personal information
         When click on the Rent button
         Then all before information provided should be displayed
